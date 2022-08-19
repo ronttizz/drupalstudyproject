@@ -1,4 +1,4 @@
-## DRUPAL STUDY PROJECT
+## Drupal Study Project
 
 This project is study project learning Drupal 9 basics. No real content or users are in the project.
 
