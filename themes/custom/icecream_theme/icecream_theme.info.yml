@@ -1,0 +1,8 @@
+name: Icecream theme
+type: theme
+description: Custom theme created by Toni to learn the very basics of custom themes
+base theme: stable
+core_version_requirement: ^9
+
+libraries:
+  - icecream_theme/global
