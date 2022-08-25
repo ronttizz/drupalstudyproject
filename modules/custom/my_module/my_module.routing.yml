@@ -1,0 +1,7 @@
+my_module.module:
+  path: "/mymodule/my"
+  defaults:
+    _controller: '\Drupal\my_module\Controller\MyController::module'
+    _title: "This is my own Module made by ME"
+  requirements:
+    _permission: "access content"
