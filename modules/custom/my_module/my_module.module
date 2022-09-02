@@ -1,0 +1,15 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function my_module_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case 'help.page.my_module':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('This is my own module') . '</h3>';
+            return $output;
+        
+        default:
+    }
+}
