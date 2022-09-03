@@ -1,0 +1,7 @@
+first_module.first:
+  path: "/link_module/page"
+  defaults:
+    _controller: '\Drupal\link_module\Controller\LinkModuleController::link'
+    _title: "Link module"
+  requirements:
+    _permission: "TRUE"

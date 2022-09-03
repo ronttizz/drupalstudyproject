@@ -1,0 +1,6 @@
+name: Link Module
+type: module
+description: Link module to take user to different places
+package: custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9
