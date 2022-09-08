@@ -3,3 +3,6 @@ type: theme
 description: "A react app inside my drupal"
 base theme: bartik
 core_version_requirement: ^9
+
+libraries:
+  - react_drupal/react_app
