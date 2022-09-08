@@ -14,6 +14,7 @@ const config = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
+  // target: "node",
   module: {
     rules: [
       {

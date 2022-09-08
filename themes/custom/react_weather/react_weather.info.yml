@@ -3,3 +3,6 @@ type: theme
 description: "Weather app"
 base theme: bartik
 core_version_requirement: ^9
+
+libraries:
+  - react_weather/react_weather_library
