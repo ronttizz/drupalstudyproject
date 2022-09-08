@@ -1,0 +1,5 @@
+name: "React Weather"
+type: theme
+description: "Weather app"
+base theme: bartik
+core_version_requirement: ^9

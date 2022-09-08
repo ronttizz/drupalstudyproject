@@ -1,0 +1,4 @@
+react_weather_library:
+  version: VERSION
+  js:
+    js/dist/bundle.min.js: { minified: true }
