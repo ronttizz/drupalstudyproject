@@ -7,15 +7,24 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("https://jsonplaceholder.typicode.com/users")
+      .get(
+        "https://api.open-meteo.com/v1/forecast?latitude=60.20&longitude=24.94&current_weather=true"
+      )
       .catch((error) => console.log(error))
       .then((res) => {
         console.log(res);
+        setWeather(res.data);
       });
-    setWeather("weather working");
   }, []);
 
-  return <h1>{weather}</h1>;
+  return { weather } ? (
+    <div>
+      <h1>Helsinki Today</h1>
+      <p>Temperature: {weather?.current_weather?.temperature} °C</p>
+    </div>
+  ) : (
+    <p>Loading weather</p>
+  );
 };
 
 export default App;
