@@ -1,0 +1,34 @@
+uuid: e493fe3c-c305-476f-afc2-81b6d96ca7c3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:dc61e343-89bc-417f-a6b6-61ca62322465'
+  module:
+    - block_content
+    - user
+  theme:
+    - icecream_theme
+id: icecream_theme_drupallearn
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:dc61e343-89bc-417f-a6b6-61ca62322465'
+settings:
+  id: 'block_content:dc61e343-89bc-417f-a6b6-61ca62322465'
+  label: 'Drupal learning'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      content_editor: content_editor
+      administrator: administrator

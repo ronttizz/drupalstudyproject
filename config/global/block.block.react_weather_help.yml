@@ -1,0 +1,22 @@
+uuid: fa69eb9e-b293-4912-9dff-7d95c559ac12
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - react_weather
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: react_weather_help
+theme: react_weather
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

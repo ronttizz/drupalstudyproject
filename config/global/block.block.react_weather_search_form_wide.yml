@@ -1,0 +1,23 @@
+uuid: 9d69d745-106d-4989-a4a4-0a15514ef624
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_weather
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: react_weather_search_form_wide
+theme: react_weather
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

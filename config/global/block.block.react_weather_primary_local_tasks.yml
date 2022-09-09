@@ -1,0 +1,22 @@
+uuid: 8d5a8da2-a698-4891-a0f9-bb4e756b8607
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_weather
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: react_weather_primary_local_tasks
+theme: react_weather
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

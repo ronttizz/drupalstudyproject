@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 28dc41b3-abf4-4ec4-b64d-c1b61c9603cd
+name: 'Lost in Drupal'
+mail: admin@example.com
+slogan: 'Site slogan'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

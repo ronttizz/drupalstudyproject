@@ -1,0 +1,22 @@
+uuid: 70960c53-5289-4c7f-812b-16a30af23faa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_weather
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: react_weather_powered
+theme: react_weather
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

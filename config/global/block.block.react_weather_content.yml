@@ -1,0 +1,22 @@
+uuid: 4b6c9d3e-8ad7-4760-96e2-58ddbbf8eac6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_weather
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: react_weather_content
+theme: react_weather
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

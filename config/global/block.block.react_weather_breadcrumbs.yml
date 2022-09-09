@@ -1,0 +1,22 @@
+uuid: db70c3e0-1069-4a67-918f-1f987e039a9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_weather
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: react_weather_breadcrumbs
+theme: react_weather
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
